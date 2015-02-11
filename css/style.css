@@ -1,6 +1,193 @@
+/*********
+Copied and pasted for convenience
+********/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, 
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+}
+
+h4, .logo-tagline, .byline-prefix, .foreword-text, .book-summary, .feature-author, .feature-format-note, .press p, 
+.press ul, .press ol, .alert--fancy p, .product-byline .byline-name i, .books .byline-name i, .product-foreword p, 
+.product-desc-gift p, .product-bundle-summary p, .product-review-quote, .product-review-byline .byline-title, 
+.product-author-bio p, .product-bundle-author-bio p, .book-desc, .newsletter-message, #faqs h4, #faqs p, 
+.about-person-name, .about-person-title, .about-text p, .basic-text p {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block;	
+	}
+	
+thead th, .button, .primary-small-button, .secondary-button, .callout h3, .primary-nav, .subsection h3, 
+.byline-name, .book-byline .byline-name, .press-article h3, .press-date, #product .title .callout p, 
+.product-option-info h4, .product-out-of-stock strong, .alert__title, .offer-message, .savings-qty, 
+.savings-discount, .savings-msg, #cart-main .callout:before	{
+	font-family: "titling-gothic-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*********
+End Copy and Paste
+**********/
+
+
+/*********
+General Styles
+**********/
+
+
+
+
 body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
 	font-fize: 1em;
 	color: #333333;
 	border-top: solid 5px #00bbb3;
+	width: 100%
+	zoom: 1
+	background: #fff;
+}
+
+body:before {
+	content: "";
+	display: table;
+}
+body:after {
+	clear: both;
+	content: "";
+	display: table;
+	}
+
+ul, menu, dir {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+
+}
+
+
+h1 {
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+	}
+
+
+/*********
+Header and Navigation
+**********/
+
+header {
+	zoom: 1;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+header:before, header:after{
+	content: "";
+	display: table;
+}
+
+.icon-logo {
+	background-color: red;
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 251px;
+	height: 36px;
+	margin: 26px 0px 3px 0px;
+}
+
+.logo-tagline {
+	font-size: 0.8em;
+	color: #00bbb3;
+	font-style: italic;
+}
+
+.shopping-cart {
+	position: absolute;
+	top: 24px;
+	right: 3.125%;
+	padding: 15px;
+	text-decoration: none;
+	border: #fff solid 1px;
+	}
+	
+.shopping-cart-icon {
+	display: inline;
+	float: left;
+	opacity: 0.7;
+	width: 25px;
+	height: 20px;
+	margin-left: 4px;
+	}
+
+.icon-cart-empty {
+	background-image: url('../images/cart.png');
+	background-repeat: no-repeat:
+	width: 25px;
+	height: 20px;
+}	
+	
+.callout {
+	border-radius: 4px;
+	padding: 8px;
+	background-color: #f6f5ea;
+}
+
+.shopping-cart-count {
+	display: inline;
+	float: left;
+	border-radius: 20px;
+	padding: 2px;
+	font-size: 0.72em;
+	min-width: 20px;
+	text-align: center;
+	background-color: #c1bfb0;
+	color: #fff;
+}
+
+.primary-nav {
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+	font-weight: 400;
+	margin-top: 20px;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	}
+
+.primary-nav li {
+	display: inline;
+	float: left;
+	margin-top: 10px;
+	margin-right: 3px;
+}
+
+.primary-nav li a {
+	border-radius: 3px;
+	display: block;
+	padding: 6px 8px 6px 8px;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #333;
+	background-color: #fff;
 }
