@@ -254,14 +254,14 @@ Featured item
 	position: relative;
 }
 
-.book-thumb.icon-cover-13 img{
+.book-cover-13 img{
 	display: block;
 	margin: 25px auto;
 }
 
 
 
- .book-thumb.icon-cover-4 img {
+ .book-cover-4 img {
 	display: block;
 	margin: 25px auto;
 }
@@ -369,8 +369,22 @@ Secondary list
 	height: 100px;
 	width: 100px;
 	background-size: cover;
-	background-image: url('../images/giftcard.png');
 }
+
+
+.book-1, .book-2, .book-3, .book-4, .book-5, .book-6, .book-7, .book-8, 
+	.book-9, .book-10, .book-11, .book-12, .book-13{
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	height: 150px;
+	width: 100px;
+	background-size: cover;
+	border: #eee solid 1px
+}
+
+
 
 
 .other-books {
@@ -398,10 +412,19 @@ Secondary list
 	margin-bottom: 12px;
 }
 
+.giftcard{
+	margin-bottom: 40px;
+}
+
+.book{
+	margin-bottom: 82px;
+}
+
 .book-title{
 	font-size: 1.125em;
 	line-height: 1.25em;
 	margin-bottom: 4px;
+	height: 388
 }
 
 .book-byline{
@@ -413,6 +436,10 @@ Secondary list
 	letter-spacing: 0.1em;
 	color: #998f52;
 	font-size: 0.75em;
+}
+
+.by {
+	text-style: italic;
 }
 
 .primary-small-button {
@@ -431,11 +458,67 @@ Secondary list
 	text-transform: uppercase;
 }
 
+/*********
+List images
+**********/
+
+.gift-card-thumb {
+	background-image: url('../images/giftcard.png');
+}
+
+.book-1 {
+	background-image: url('../images/1.png');
+}
+
+.book-2 {
+	background-image: url('../images/2.png');
+}
+
+.book-3 {
+	background-image: url('../images/3.png');
+}
+
+.book-4 {
+	background-image: url('../images/4.png');
+}
+
+.book-5 {
+	background-image: url('../images/5.png');
+}
+
+.book-6 {
+	background-image: url('../images/6.png');
+}
+
+.book-7 {
+	background-image: url('../images/7.png');
+}
+
+.book-8 {
+	background-image: url('../images/8.png');
+}
+
+.book-9 {
+	background-image: url('../images/9.png');
+}
+
+.book-10 {
+	background-image: url('../images/10.png');
+}
+
+.book-11 {
+	background-image: url('../images/11.png');
+}
 
 
+.book-12 {
+	background-image: url('../images/12.png');'
+}
 
 
-
+.book-13 {
+	background-image: url('../images/13.png');'
+}
 
 
 
