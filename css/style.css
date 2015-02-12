@@ -50,8 +50,8 @@ body {
 	font-size: 1em;
 	color: #333333;
 	border-top: solid 5px #00bbb3;
-	width: 100%
-	zoom: 1
+	width: 100%;
+	zoom: 1;
 	background: #fff;
 }
 
@@ -358,6 +358,7 @@ Secondary list
 ************/
 .divider-top-thick, .divider-bottom-thick {
 	border-color: #f2f1e2;
+	
 }
 
 
@@ -400,6 +401,11 @@ Secondary list
 	padding-top: 30px;
 	margin-top: 30px;
 	border-top-style: solid;
+}
+
+.divider-bottom-thick {
+	border-bottom-width: 5px;
+	border-bottom-style: solid
 }
 
 .subsection h3 {
@@ -651,3 +657,85 @@ Subscription area
 	margin-top: 100px;
 	padding: 1px 6px;
 }
+
+
+/****************
+Footer
+****************/
+
+footer {
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+	padding-bottom: 50px;
+	color: #888;
+	}
+footer a{
+text-decoration: underline;
+}
+	
+.footer-links li {
+	display: block;
+}
+.footer-links {
+	text-align: center;
+	display: block
+	width: auto;
+	font-size: 0.6875em;
+	line-height: 2em;
+
+}
+
+.links li {
+	margin-right: 7px;
+	}
+	
+.footer-partner {
+	display: block;
+	margin-top: 24px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: none;
+	padding-left: 33%;
+}
+
+.footer-partner-logo {
+	opacity: 0.7;
+	float: left;
+	display: block;
+	width: 38px;
+	height: 38px;
+	text-indent: -9999px;
+}
+
+.footer-partner-byline {
+	float:left;
+	display: block;
+	font-size: 0.6875em;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.hc-icon-footer{
+	background-image: url('../images/hc.png');
+	background-repeat: no-repeat;
+	width: 38px;
+	height: 38px;
+	text-indent: -9999px;
+	display: inline-block;
+	
+}
+
+.arcustech-logo-footer{
+	background-image: url('../images/arcu.png');
+	background-repeat: no-repeat;
+	width: 38px;
+	height: 38px;
+	text-indent: -9999px;
+	display: inline-block;
+	
+}
+	
