@@ -47,7 +47,7 @@ General Styles
 
 body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
-	font-fize: 1em;
+	font-size: 1em;
 	color: #333333;
 	border-top: solid 5px #00bbb3;
 	width: 100%
@@ -384,7 +384,7 @@ Secondary list
 	border: #eee solid 1px
 }
 
-
+ 
 
 
 .other-books {
@@ -520,6 +520,134 @@ List images
 	background-image: url('../images/13.png');'
 }
 
+/****************
+Press section
+*****************/
+
+.press-room{
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+	position: relative;
+}
+
+.press-listing{
+	margin-bottom: 30px;
+}
+
+.press-listing p a{
+	text-decoration: underline;
+}
+
+h4 a{
+	margin-top: 15px;
+	font-size: 1.1em;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.press-room .links{
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	text-align: right;
+	font-size: 0.7em;
+	line-height: 1.5em;
+	letter-spacing: 14px;
+}
 
 
 
+.links-rss{
+display: none;
+}
+
+.links-more {
+	color: #00bbb3;
+	text-decoration: underline;
+	line-height: 1em;
+	letter-spacing: .5px;
+}
+
+.press-summary img {
+	margin: 5px 10px 10px 0px;
+	float: left;
+}
+
+
+
+.press-listing p{
+	margin-bottom: 6px;
+	font-size: 0.825em;
+	line-height: 1.5em;
+}
+
+.press-date{
+	font-size: 0.75em;
+	margin-bottom: 6px;
+	font-weight:500;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #888;
+}
+
+/**********************
+Subscription area
+***********************/
+#newsletter{
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+	padding: 20px 0px 16px 0px;
+	margin-bottom: 30px;
+}
+
+#email-label{
+	position: absolute;
+	left: -9999px;
+}
+.newsletter-message{
+	font-size: 0.825em;
+	line-height: 1.5em;
+}
+
+.email{
+	width: 96.875%;
+	margin-right: 3.125%;
+	margin-bottom: 8px;
+	display: inline;
+	float: left;
+	border-radius: 2px;
+	border: solid 1px #ccc;
+	padding: 5px 4px;
+	font-size: .8em;
+	color: #888;
+	background-color: #fff;
+}
+
+#subscribe {
+	display: inline;
+	float: right;
+	padding: 5px 8px;
+	font-size: 0.75em;
+	background-color: #fbfbf6;
+	background-image: linear-gradient(#fbfbf6, #e8e5d4);
+	color: #1e90de;
+	border: solid 1px #d1cdba;
+	border-radius: 3px;
+	outline: none;
+	margin: 0px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	text-transform:uppercase;
+}
+
+.secondary-button {
+	margin-top: 100px;
+	padding: 1px 6px;
+}
