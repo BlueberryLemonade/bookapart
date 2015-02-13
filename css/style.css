@@ -42,7 +42,9 @@ End Copy and Paste
 General Styles
 **********/
 
-
+*{
+	box-sizing: border-box;
+}
 
 
 body {
@@ -82,6 +84,10 @@ ul {
 a {
 	color: #00bbb3;
 	text-decoration: none;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 
@@ -738,4 +744,81 @@ text-decoration: underline;
 	display: inline-block;
 	
 }
-	
+
+/****************
+STORE
+****************/
+
+.library-bar {
+	float: right;
+	width: 100%;
+	background-color: #f6f5ea;
+	box-shadow: inset 0px 0px 80px rgba(0,0,0, 0.05);
+	border-radius: 5px;
+	padding: 12px 10px 10px;
+	position: relative;
+	margin-top: -46px;
+}	
+
+.subsection .library-bar h3{
+	font-size: .9em;
+	margin-right: 150px;
+	letter-spacing: 1px;
+	line-height: 1;
+	color: #333;
+	text-transform: uppercase;
+	display: inline;
+	margin-bottom: 10px;
+}
+
+.library-collection .hero-image {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+h2.title {
+	font-size: 3em;
+	letter-spacing: 1px;
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-top: 0px;
+	margin-right: 3.125%;
+	margin-left: 3.125%;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+	font-family: 'Six Caps', sans-serif;
+
+}
+
+.foreword-text {
+	margin-bottom: 45px;
+}
+
+.press-list li {
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+}
+
+.divider-bottom {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #ccc;
+}
+
+.press-summary p{
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 16px;
+}
+
