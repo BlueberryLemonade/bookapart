@@ -907,3 +907,81 @@ ABOUT
 	content: "";
 	display: table;
 }
+
+/*********
+HELP
+**********/
+#help {
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+}
+
+#help .callout {
+	position: relative;
+	border-radius: 4px;
+	padding: 8px;
+	background-color: #f6f5ea;
+}
+
+.callout h3{
+	font-size: 0.75em;
+	font-weight: 500;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #997e11;
+	margin-bottom: 7px;
+}
+
+.callout p {
+	display: block;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	padding-left: 24px;
+	background-position: 0px 2px;
+}
+.callout p a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.icon-mail{
+	background-image: url(../images/mail.png);
+	background-repeat: no-repeat;
+}
+
+#faqs {
+	display: inline;
+	float: left;
+	width: 93.75%;
+	margin-left: 3.125%;
+	margin-right: 3.125%;
+}
+
+#faqs h4{
+	margin-bottom: 4px;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+#faqs p {
+	margin-bottom: 1.5em;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: 0;
+}
+
+#faqs a{
+	text-decoration: underline;
+}
+
+.divider-top {
+	border-color: #ccc;
+	padding-top: 30px;
+	margin-top: 30px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
