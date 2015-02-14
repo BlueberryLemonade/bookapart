@@ -46,6 +46,9 @@ General Styles
 	box-sizing: border-box;
 }
 
+div {
+	display: block;;
+}
 
 body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
@@ -250,7 +253,32 @@ Featured item
 }
 
 
-.feature_small_item {
+.feature-big-cover{
+	border-radius: 5px;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	background-image: url(../images/bigrwd.png);
+	background-size: auto 327px;
+	background-position: -430px 0px;
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 100%;
+
+}
+
+
+.feature-big-cover-2{
+	border-radius: 5px;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	background-image: url(../images/bigrrd.png);
+	background-size: auto 327px;
+	background-position: -430px 0px;
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 100%;
 
 }
 
@@ -262,16 +290,24 @@ Featured item
 	position: relative;
 }
 
-.book-cover-13 img{
+.book-cover-13{
 	display: block;
 	margin: 25px auto;
+	background-image: url(../images/13.png);
+	width: 99px;
+	height: 152px;
+	margin: 25px auto 0;
 }
 
 
 
- .book-cover-4 img {
+ .book-cover-4{
 	display: block;
 	margin: 25px auto;
+	background-image: url(../images/4.png);
+	width: 99px;
+	height: 152px;
+	margin: 25px auto 0;
 }
 
 
@@ -286,6 +322,16 @@ Featured item
 	background-color: #f6f5ea;
 	min-height: 300px;
 	margin-bottom: 10px;
+	box-shadow: inset 0px 0px 80px rgba(0,0,0,0.05);
+	border-radius: 5px;
+	position: relative;
+}
+
+
+
+.feature-info:before, .feature-info:after{
+	content: "";
+	display: table;
 }
 
 .feature-author {
@@ -300,7 +346,8 @@ Featured item
 
 .feature-title {
 	display: block;
-	font-size: 2.5em;
+	font-size: 1.8em;
+	letter-spacing: 1px;
 	font-style: normal;
 	text-decoration: none;
 	color: #00bbb3;
@@ -335,6 +382,7 @@ Featured item
 	line-height: 1.5em;
 	color: #b1a55f;
 }	
+
 .feature-buy-button {
 	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 	position: absolute;

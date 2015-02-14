@@ -1,15 +1,116 @@
-@media screen and (min-width: 481px) {
-	#home .other-books .books{
-		width: 106.25%;
-		margin-left: -3.125%;
-		margin-right: -3.125%;
-		display: block;
-		
-	}	
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#home .feature-info{
+		margin-left: 125px;
+	}
+
+	#home .feature-small-cover {
+		display: inline;
+		position: absolute;
+	}
+	#home .book-cover-13, .book-cover-4{
+		margin: 25px;
+	}
+
+	#home .book-cover-4{
+		margin: 25px;
+	}
+}
+
+@media screen and (min-width: 769px){
+	#newsletter, .newsletter-note, #mc_embed_signup, h1,
+	 #product .other-books, #product .other-books .books li, 
+	 #cart .other-books, #cart .other-books .books li, 
+	 .product-byline, .hero-image, .product-options, 
+	 .product-options-list li, .product-bundle-offer, .product-content, 
+	 .product-bundle-summary, .product-reviews, .product-review-list-2 li, 
+	 .product-review-list-3 li, .product-review-list-4 li, 
+	 .product-author-info, #product-tk .product-author-info, 
+	 .product-author-headshot, .product-bundle-authors-info, 
+	 .product-additional-info, #home .feature, #home .other-books, 
+	 #home .other-books .books li, #home .press-room, #home .press-room 
+	 .press li, .content h2.title, .content-with-sidebar, 
+	 .content-with-sidebar h2.title, aside, #products, 
+	 #products .books li, #cart-main, #press-room .press-list li, 
+	 #press-room #pagination, #press, #about, #basic, .about-people li, 
+	 #help, #faqs, footer, .footer-links {
+	 	margin-left: 10px;
+	 	margin-right: 10px;
+	 }
+	 #home .feature{
+	 	display: inline;
+	 	float: left;
+	 }
+	 h1{
+	 	width: 244px;
+	 }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+	#main {
+		width: 640px;
+		margin: 0px auto;
+	}
+
+	#home .feature{
+		width: 620px;
+	}
+}
+
+
+}
+@media screen and (min-width: 1025px ){
+	#home .feature-big-cover {
+		width: 430px;
+		background-position: 0px 0px;
+	}
+
+	#home .feature-big-cover-2 {
+		width: 430px;
+		background-position: 0px
+	}
+}
+
+
+@media screen and (min-width: 1025px) {
+	
+	#main{
+		width: 960px;
+		margin: 0px auto;
+	}
+
+	#home .feature-small-cover{
+		display: none;
+	}
+
+	#home .feature{
+		width: 940px;
+	}
+
+	#home .feature-info {
+		display: inline;
+		width: 480px;
+		margin-left: 10px;
+		margin-right: 10px;
+		float: right;
+		padding-right: 25px;
+	}
+
+	#home .feature-big-cover{
+		width: 430px;
+		background-position: 0px 0px;
+	}
+	#home .feature-big-cover-2{
+		width: 430px;
+		background-position: 0px 0px;
+
+
+
+
+
+
+	}
+
 
 }
 
-@media screen and (min-width: 660px) {
 
-		
-}
