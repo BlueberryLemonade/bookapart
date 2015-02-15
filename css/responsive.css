@@ -14,7 +14,26 @@
 	#home .book-cover-4{
 		margin: 25px;
 	}
+
+	#home .other-books .books li{
+		display: inline;
+		float: left;
+		width: 43.75%;
+		margin-left: 3.125%;
+		margin-right: 3.125%;
+	}
+
+	#home .other-books  .book-title {
+		clear: both;
+	}
+
+	#home .other-books ul:nth-child(5n) {
+		clear: both;
+	}
 }
+
+
+
 
 @media screen and (min-width: 769px){
 	#newsletter, .newsletter-note, #mc_embed_signup, h1,
@@ -43,7 +62,30 @@
 	 h1{
 	 	width: 244px;
 	 }
+	 .other-books .books li {
+	 	display: inline;
+	 	float: left;
+	 	width: 300px;
+	 	clear: both;
+	 }
+
+	#home .feature .book-cover-13, #home .feature .book-cover-4{
+		margin: 25px;
+	}
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) and (min-width: 769px){
 	#main {
@@ -53,6 +95,21 @@
 
 	#home .feature{
 		width: 620px;
+	}
+
+	#home .other-books{
+		width: 620px;
+		display: inline;
+		float: left;
+
+	}
+
+	#home .feature-small-cover {
+		display: inline;
+		position: absolute;
+	}
+	#home .feature-info {
+		margin-left: 125px;
 	}
 }
 
@@ -67,6 +124,9 @@
 	#home .feature-big-cover-2 {
 		width: 430px;
 		background-position: 0px
+	}
+	#home .feature-info {
+		margin-left: 125px;
 	}
 }
 

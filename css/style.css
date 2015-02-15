@@ -60,15 +60,6 @@ body {
 	background: #fff;
 }
 
-body:before {
-	content: "";
-	display: table;
-}
-body:after {
-	clear: both;
-	content: "";
-	display: table;
-	}
 
 ul, menu, dir {
 	display: block;
@@ -127,10 +118,7 @@ header {
 	margin-bottom: 30px;
 }
 
-header:before, header:after{
-	content: "";
-	display: table;
-}
+
 
 /**
 logo
@@ -329,10 +317,7 @@ Featured item
 
 
 
-.feature-info:before, .feature-info:after{
-	content: "";
-	display: table;
-}
+
 
 .feature-author {
 	display: block;
@@ -417,13 +402,22 @@ Secondary list
 	
 }
 
+#home .other-books books books li:before, #home .other-books .books li:after {
+	content: "";
+	display: table;
+} 
+
+.other-books .books li:after{
+	clear: both;
+}
+
 
 .gift-card-thumb{
 	display: inline;
 	float: left;
 	margin-top: 5px;
 	margin-right: 10px;
-	height: 100px;
+	height: 150px;
 	width: 100px;
 	background-size: cover;
 }
@@ -479,14 +473,13 @@ Secondary list
 }
 
 .book{
-	margin-bottom: 82px;
+	margin-bottom: 30px;
 }
 
 .book-title{
 	font-size: 1.125em;
 	line-height: 1.25em;
 	margin-bottom: 4px;
-	height: 388
 }
 
 .book-byline{
