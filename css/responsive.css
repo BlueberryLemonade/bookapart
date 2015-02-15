@@ -23,12 +23,16 @@
 		margin-right: 3.125%;
 	}
 
-	#home .other-books  .book-title {
-		clear: both;
-	}
+
 
 	#home .other-books ul:nth-child(5n) {
 		clear: both;
+	}
+
+	#home .other-books .books{
+		width: 106.25%;
+		margin-left: -3.125%;
+		margin-right: -3.125%;
 	}
 }
 
