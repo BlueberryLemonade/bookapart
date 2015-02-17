@@ -33,6 +33,12 @@ thead th, .button, .primary-small-button, .secondary-button, .callout h3, .prima
 }
 
 
+body#index #nav-home a, body#store #nav-store a, body#product #nav-store a, body#product-tk #nav-store a, body#blog #nav-press a, body#article #nav-press a, body#about #nav-about a, body.help #nav-help a {
+color: #1e90de;
+background-color: #f6f5ea;
+border-color: #bcb79c;
+}
+
 /*********
 End Copy and Paste
 **********/
@@ -113,9 +119,8 @@ Header and Navigation
 **********/
 
 header {
-	zoom: 1;
 	position: relative;
-	margin-bottom: 30px;
+	display: block;
 }
 
 
@@ -214,8 +219,8 @@ navigation
 .primary-nav li {
 	display: inline;
 	float: left;
-	margin-top: 10px;
 	margin-right: 3px;
+	margin-bottom: 20px;
 }
 
 .primary-nav li a {
