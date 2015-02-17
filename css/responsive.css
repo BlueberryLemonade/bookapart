@@ -70,7 +70,6 @@
 	 	display: inline;
 	 	float: left;
 	 	width: 300px;
-	 	clear: both;
 	 }
 
 	#home .feature .book-cover-13, #home .feature .book-cover-4{
@@ -91,7 +90,7 @@
 
 
 
-@media screen and (max-width: 1024px) and (min-width: 769px){
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	#main {
 		width: 640px;
 		margin: 0px auto;
@@ -115,6 +114,17 @@
 	#home .feature-info {
 		margin-left: 125px;
 	}
+
+	#home .other-books .books{
+		width: 660px;
+	}
+
+	#home .other-books .books li{
+		display: inline;
+		float: left;
+		width: 300px;
+	}
+
 }
 
 
