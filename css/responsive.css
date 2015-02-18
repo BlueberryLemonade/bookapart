@@ -187,11 +187,17 @@
 	 	width: 460px;
 		margin-left: 34px;
 		margin-right: 10px;
-		margin-top: 0px;
+		margin-top: -18px;
 	 }
 	 #main h1{
 	 	width: 244px;
 	 }
+
+	 #index .primary-nav li a {
+		border-radius: 0px; 
+		padding: 34px 8px 3px 8px; 
+		border-width: 0 0 1px;
+	}
 }
 
 
