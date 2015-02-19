@@ -412,9 +412,7 @@ Secondary list
 	display: table;
 } 
 
-.other-books .books li:after{
-	clear: both;
-}
+
 
 
 .gift-card-thumb{
