@@ -91,18 +91,18 @@
 		margin: 25px;
 	}
 
-	#index .footer-links{
+	#index .footer-links, #store .footer-links{
 		display: inline;
 		float: left;
 		width: 380px;
 		text-align: left;
 		margin-top: 20px;
 	}
-	#index .footer-links li{
+	#index .footer-links li, #store .footer-links li{
 		display: inline;
 	}
 
-	#index .footer-partner {
+	#index .footer-partner, #store .footer-partner{
 		float: right;
 		padding-left: 0%;
 	}
@@ -225,13 +225,13 @@
 	 	width: 244px;
 	 }
 
-	 #index .primary-nav li a {
+	 #index .primary-nav li a, #store .primary-nav li a {
 		border-radius: 0px; 
 		padding: 34px 8px 3px 8px; 
 		border-width: 0 0 1px;
 	}
 
-	#index .footer-partner-arcustech{
+	#index .footer-partner-arcustech, #store .footer-partner-arcustech{
 		margin-right: 40px;
 		clear: none;
 	}

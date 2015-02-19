@@ -438,7 +438,9 @@ Secondary list
 	border: #eee solid 1px
 }
 
- 
+ .other-books .books li:after{
+	clear: both;
+}
 
 
 .other-books {
