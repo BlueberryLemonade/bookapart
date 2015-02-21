@@ -110,6 +110,11 @@ p {
 	line-height: 1.5em;
 	}
 
+aside{
+	display: none;
+	border-left: solid 1px #ccc;
+	padding-left: 20px;
+}
 
 	
 	
@@ -903,6 +908,63 @@ PRESS
 	margin: 0 2px;
 }
 
+.content-with-sidebar {
+	display: inline;
+	float: left;
+}
+
+.callout {
+	border-radius: 4px;
+	padding: 8px;
+	background-color: #f6f5ea;
+}
+
+.callout h3{
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #997e11;
+	margin-bottom: 7px;
+}
+
+.callout p{
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+
+aside .subsection{
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top-color: #ccc;
+}
+
+.subsection h3{
+	font-style: normal;
+	margin-bottom: 12px;
+	font-size: 0.9375em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.subsection h3, th {
+	color: #997e11;
+}
+
+aside .subsection a{
+	text-decoration: none;
+}
+
+aside h4{
+	margin-bottom: 10px;
+}
+aside .book-summary {
+	clear: both;
+	padding-top: 10px;
+}
+aside .book-thumb {
+	margin: 0px;
+}
 /********
 ABOUT
 *******/
