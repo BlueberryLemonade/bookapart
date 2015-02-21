@@ -91,18 +91,18 @@
 		margin: 25px;
 	}
 
-	#index .footer-links, #store .footer-links{
+	#index .footer-links, #store .footer-links, #press .footer-links{
 		display: inline;
 		float: left;
 		width: 380px;
 		text-align: left;
 		margin-top: 20px;
 	}
-	#index .footer-links li, #store .footer-links li{
+	#index .footer-links li, #store .footer-links li, #press .footer-links li{
 		display: inline;
 	}
 
-	#index .footer-partner, #store .footer-partner{
+	#index .footer-partner, #store .footer-partner, #press .footer-partner{
 		float: right;
 		padding-left: 0%;
 	}
@@ -231,7 +231,14 @@
 		border-width: 0 0 1px;
 	}
 
-	#index .footer-partner-arcustech, #store .footer-partner-arcustech{
+	#press .primary-nav li a{
+		border-radius: 0px; 
+		padding:34px 8px 3px 8px; 
+		border-width: 0 0 1px;
+		margin-top: -16px;
+	}
+
+	#index .footer-partner-arcustech, #store .footer-partner-arcustech, #press .footer-partner-arcustech {
 		margin-right: 40px;
 		clear: none;
 	}
