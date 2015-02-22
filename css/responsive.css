@@ -24,7 +24,6 @@
 	}
 
 
-
 	#home .other-books ul:nth-child(5n) {
 		clear: both;
 	}
@@ -48,7 +47,21 @@
 		float: left;
 		padding-left: 0%;
 	}
+	#about #aboutinfo {
+		display: inline;
+		float: left;
+		width: 93.75%;
+		margin-left: 3.125%;
+		margin-right: 3.125%;
+	}
 
+	#about .about-people li {
+		display: inline;
+		float: left;
+		width: 43.75%;
+		margin-left: 3.125%;
+		margin-right: 3.125%;
+	}
 }
 
 
@@ -113,6 +126,11 @@
 		float: right;
 	}
 
+	#about .about-people li{
+		display: inline;
+		float: left;
+	}
+
 }
 
 
@@ -161,9 +179,12 @@
 		float: left;
 		width: 300px;
 	}
-
-
-
+	#about .content-with-sidebar{
+		width: 380px;
+	}
+	#about #newsletter {
+		width: 620px;
+	}
 }
 
 

@@ -1016,6 +1016,12 @@ ABOUT
 	display: table;
 }
 
+.about-text p, .basic-text p{
+	margin-bottom: 16px;
+	font-size: 1.125em;
+	line-height: 1.5em;
+}
+
 /*********
 HELP
 **********/
