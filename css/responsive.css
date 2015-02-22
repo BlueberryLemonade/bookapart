@@ -267,6 +267,21 @@
 	#press .content-with-sidebar{
 		width: 700px;
 	}
+
+	#about .about-people li{
+		width: 220px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	#about #aboutinfo{
+		width: 700px;
+	}
+
+	#about .about-people{
+		margin-left: -10px;
+		margin-right: -10px;
+	}
 }
 
 
