@@ -35,7 +35,7 @@
 		margin-right: -3.125%;
 	}
 
-	#index .footer-links, #store .footer-links, #press .footer-links {
+	#index .footer-links, #store .footer-links, #press .footer-links, #about .footer-links {
 		display: inline;
 		float: left;
 		width: 68.75%;
@@ -44,7 +44,7 @@
 		text-align: left;
 	}
 
-	#index .footer-partner, #store .footer-links, #press .footer-links {
+	#index .footer-partner, #store .footer-links, #press .footer-links, #about .footer-links {
 		float: left;
 		padding-left: 0%;
 	}
@@ -91,23 +91,23 @@
 		margin: 25px;
 	}
 
-	#index .footer-links, #store .footer-links, #press .footer-links{
+	#index .footer-links, #store .footer-links, #press .footer-links, #about .footer-links{
 		display: inline;
 		float: left;
 		width: 380px;
 		text-align: left;
 		margin-top: 20px;
 	}
-	#index .footer-links li, #store .footer-links li, #press .footer-links li{
+	#index .footer-links li, #store .footer-links li, #press .footer-links li, #about .footer-links li{
 		display: inline;
 	}
 
-	#index .footer-partner, #store .footer-partner, #press .footer-partner{
+	#index .footer-partner, #store .footer-partner, #press .footer-partner, #about .footer-partner{
 		float: right;
 		padding-left: 0%;
 	}
 
-	#press aside{
+	#press aside, #about aside{
 		display: inline;
 		width: 220px;
 		float: right;
@@ -231,14 +231,14 @@
 	 	width: 244px;
 	 }
 
-	 #index .primary-nav li a, #store .primary-nav li a, #press .primary-nav li a{
+	 #index .primary-nav li a, #store .primary-nav li a, #press .primary-nav li a, #about .primary-nav li a{
 		border-radius: 0px; 
 		padding: 34px 8px 3px 8px; 
 		border-width: 0 0 1px;
 	}
 
 
-	#index .footer-partner-arcustech, #store .footer-partner-arcustech, #press .footer-partner-arcustech {
+	#index .footer-partner-arcustech, #store .footer-partner-arcustech, #press .footer-partner-arcustech, #about .footer-partner-arcustech {
 		margin-right: 40px;
 		clear: none;
 	}
