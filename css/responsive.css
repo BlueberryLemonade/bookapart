@@ -34,7 +34,7 @@
 		margin-right: -3.125%;
 	}
 
-	#index .footer-links, #store .footer-links, #press .footer-links, #about .footer-links {
+	#index .footer-links, #store .footer-links, #press .footer-links, #about .footer-links, #page .footer-links {
 		display: inline;
 		float: left;
 		width: 68.75%;
@@ -43,7 +43,7 @@
 		text-align: left;
 	}
 
-	#index .footer-partner, #store .footer-links, #press .footer-links, #about .footer-links {
+	#index .footer-partner, #store .footer-links, #press .footer-links, #about .footer-links, #page .footer-links{
 		float: left;
 		padding-left: 0%;
 	}
@@ -104,18 +104,18 @@
 		margin: 25px;
 	}
 
-	#index .footer-links, #store .footer-links, #press .footer-links, #about .footer-links{
+	#index .footer-links, #store .footer-links, #press .footer-links, #about .footer-links, #page .footer-links{
 		display: inline;
 		float: left;
 		width: 380px;
 		text-align: left;
 		margin-top: 20px;
 	}
-	#index .footer-links li, #store .footer-links li, #press .footer-links li, #about .footer-links li{
+	#index .footer-links li, #store .footer-links li, #press .footer-links li, #about .footer-links li, #page .footer-links li{
 		display: inline;
 	}
 
-	#index .footer-partner, #store .footer-partner, #press .footer-partner, #about .footer-partner{
+	#index .footer-partner, #store .footer-partner, #press .footer-partner, #about .footer-partner, #page .footer-partner{
 		float: right;
 		padding-left: 0%;
 	}
@@ -259,12 +259,12 @@
 	}
 
 
-	#index .footer-partner-arcustech, #store .footer-partner-arcustech, #press .footer-partner-arcustech, #about .footer-partner-arcustech {
+	#index .footer-partner-arcustech, #store .footer-partner-arcustech, #press .footer-partner-arcustech, #about .footer-partner-arcustech, #page .footer-partner-arcustech{
 		margin-right: 40px;
 		clear: none;
 	}
 
-	#press .content-with-sidebar{
+	#press .content-with-sidebar, #page .content-with-sidebar{
 		width: 700px;
 	}
 
