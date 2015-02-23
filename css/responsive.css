@@ -252,7 +252,7 @@
 	 	width: 244px;
 	 }
 
-	 #index .primary-nav li a, #store .primary-nav li a, #press .primary-nav li a, #about .primary-nav li a{
+	 #index .primary-nav li a, #store .primary-nav li a, #press .primary-nav li a, #about .primary-nav li a, #page .primary-nav li a{
 		border-radius: 0px; 
 		padding: 34px 8px 3px 8px; 
 		border-width: 0 0 1px;
