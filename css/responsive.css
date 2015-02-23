@@ -131,6 +131,11 @@
 		float: left;
 	}
 
+	#page aside{
+		display: inline;
+		width: 220px;
+		float: right;
+	}
 }
 
 
@@ -259,11 +264,13 @@
 	}
 
 
-	#index .footer-partner-arcustech, #store .footer-partner-arcustech, #press .footer-partner-arcustech, #about .footer-partner-arcustech, #page .footer-partner-arcustech{
+	#index .footer-partner-arcustech, #store .footer-partner-arcustech, #press .footer-partner-arcustech, #about .footer-partner-arcustech{
 		margin-right: 40px;
 		clear: none;
 	}
-
+	#page .footer-partner-arcustech{
+		margin-right: 29px;
+	}
 	#press .content-with-sidebar, #page .content-with-sidebar{
 		width: 700px;
 	}
