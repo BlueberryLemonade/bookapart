@@ -967,6 +967,13 @@ aside .book-summary {
 aside .book-thumb {
 	margin: 0px;
 }
+
+.icon-question{
+	background-image: url('../images/question.png');
+	background-repeat: no-repeat;
+	padding-left: 19px;
+	background-position: 0px 2px;
+}
 /********
 ABOUT
 *******/
@@ -1058,7 +1065,6 @@ HELP
 	display: block;
 	font-size: 0.75em;
 	line-height: 1.5em;
-	padding-left: 24px;
 	background-position: 0px 2px;
 }
 .callout p a {
