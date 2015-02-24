@@ -1074,6 +1074,11 @@ HELP
 .icon-mail{
 	background-image: url(../images/mail.png);
 	background-repeat: no-repeat;
+	display: block;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	background-position: 0px 2px;
+	padding-left: 24px;
 }
 
 #faqs {
@@ -1109,3 +1114,4 @@ HELP
 	border-top-style: solid;
 	border-top-width: 1px;
 }
+
